@@ -159,8 +159,14 @@ footer div h2 p {
     border-top: 1px solid gray;
     width: 90%;
     margin: 0 auto;
-    padding: 15px 15px;
 }
+
+/*.bottom-footer {
+    border-top: 1px solid gray;
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px 15px; ~DELETED THIS FOR MOBILE VIEW~
+} *//
 
 .bottom-footer p {
     float: left;
@@ -300,6 +306,7 @@ footer div h2 p {
 
     .name {
         float: left;
+				padding: 15px 0;
     }
 
     .main-nav {
